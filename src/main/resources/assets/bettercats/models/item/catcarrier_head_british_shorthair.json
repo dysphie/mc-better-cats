@@ -1,0 +1,7 @@
+{
+  "parent": "builtin/generated",
+  "textures": {
+    "layer0": "bettercats:items/catcarrier_base",
+    "layer1": "bettercats:items/catcarrier_head_britishshorthair"
+  }
+}

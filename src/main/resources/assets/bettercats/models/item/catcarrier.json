@@ -1,0 +1,23 @@
+{
+  "parent": "builtin/generated",
+  "textures": {
+    "layer0": "bettercats:items/catcarrier_base",
+    "layer1": "bettercats:items/catcarrier_head_tabby"
+  },
+
+  "__comment": "we use the breed property override to choose which cat head to render",
+  "overrides": [
+    { "predicate": { "breed": -1 }, "model": "bettercats:item/catcarrier_empty" },
+    { "predicate": { "breed": 0 }, "model": "bettercats:item/catcarrier_head_tabby" },
+    { "predicate": { "breed": 1 }, "model": "bettercats:item/catcarrier_head_black" },
+    { "predicate": { "breed": 2 }, "model": "bettercats:item/catcarrier_head_red" },
+    { "predicate": { "breed": 3 }, "model": "bettercats:item/catcarrier_head_siamese" },
+    { "predicate": { "breed": 4 }, "model": "bettercats:item/catcarrier_head_british_shorthair" },
+    { "predicate": { "breed": 5 }, "model": "bettercats:item/catcarrier_head_calico" },
+    { "predicate": { "breed": 6 }, "model": "bettercats:item/catcarrier_head_persian" },
+    { "predicate": { "breed": 7 }, "model": "bettercats:item/catcarrier_head_ragdoll" },
+    { "predicate": { "breed": 8 }, "model": "bettercats:item/catcarrier_head_white" },
+    { "predicate": { "breed": 9 }, "model": "bettercats:item/catcarrier_head_jellie" },
+    { "predicate": { "breed": 10 }, "model": "bettercats:item/catcarrier_head_all_black" }
+  ]
+}
